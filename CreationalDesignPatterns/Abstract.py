@@ -14,7 +14,6 @@ class VictorianFactory:
         return "Victorian Sofa"
 
 
-# Usage
 factory = ModernFactory()
 print(factory.create_chair())
 print(factory.create_sofa())
