@@ -10,7 +10,6 @@ class Prototype:
         return copy.deepcopy(self)
 
 
-# Usage
 original = Prototype([1, 2, 3])
 cloned = original.clone()
 cloned.value.append(4)
